@@ -7,7 +7,7 @@ Vue.use(VueRouter);
 export default new VueRouter({
   mode: "history",
   routes: [
-    { path: "/home", component: Home },
-    { path: "*", redirect: "/home" }
+    { path: "/", component: Home },
+    { path: "*", redirect: "/" }
   ]
 });
