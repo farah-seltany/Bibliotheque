@@ -10,7 +10,7 @@ use ApiPlatform\Core\Annotation\ApiResource;
 
 /**
  * @ORM\Entity(repositoryClass=AuthorRepository::class)
- * @ApiResource
+ *     * @ApiResource
  */
 class Author
 {

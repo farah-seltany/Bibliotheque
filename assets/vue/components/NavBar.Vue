@@ -4,7 +4,7 @@
       class="navbar-brand"
       to="/home"
     >
-      App
+      Bibliothèque
     </router-link>
     <button
       class="navbar-toggler"
@@ -28,7 +28,23 @@
           to="/home"
           active-class="active"
         >
-          <a class="nav-link">Home</a>
+          <a class="nav-link">Accueil</a>
+        </router-link>
+        <router-link
+          class="nav-item"
+          tag="li"
+          to="/home"
+          active-class="active"
+        >
+          <a class="nav-link">Livres</a>
+        </router-link>
+        <router-link
+          class="nav-item"
+          tag="li"
+          to="/home"
+          active-class="active"
+        >
+          <a class="nav-link">Maisons d'édition</a>
         </router-link>
       </ul>
     </div>
